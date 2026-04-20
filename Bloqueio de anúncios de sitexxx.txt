@@ -1,15 +1,4 @@
-# PALAVRAS-CHAVE (ANÚNCIOS ADULTOS)
-||adultad^
-||sexad^
-||pornad^
-||xxxads^
-||eroads^
-||adsadult^
-||adsxxx^
-||adultbanner^
-||sexbanner^
-
-# REDES DE ANÚNCIOS ADULTOS
+# REDES DE ANÚNCIOS ADULTOS (SEGURAS)
 ||exoclick.com^
 ||trafficjunky.net^
 ||juicyads.com^
@@ -20,32 +9,11 @@
 ||popads.net^
 ||popcash.net^
 
-# TRACKING ADULTO
-||track.xxx^
-||tracking.xxx^
-||click.xxx^
-||ads.xxx^
-||promo.xxx^
+# TRACKING (mais específico)
+||track.*.xxx^
+||ads.*.xxx^
+||click.*.xxx^
 
-# CDN / MEDIA USADOS EM ADS
-||cdn.xxx^
-||media.xxx^
-||img.xxx^
-
-# POPUPS E REDIRECIONAMENTOS
-||popunder^
-||popup^
-||clickredirect^
-||autoredirect^
-
-# TERMOS COMUNS EM LINKS
-||freeporn^
-||sexcam^
-||livecam^
-||webcamsex^
-||adultvideo^
-
-# REDIRECIONADORES
-||bit.ly^$domain=xxx
-||cutt.ly^$domain=xxx
-||tinyurl.com^$domain=xxx
+# POPUPS (mais controlado)
+||popunder.js
+||popup.js
