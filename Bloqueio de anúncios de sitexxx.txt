@@ -1,4 +1,4 @@
-# REDES DE ANÚNCIOS ADULTOS (SEGURAS)
+# REDES DE ANÚNCIOS ADULTOS (SEGURO)
 ||exoclick.com^
 ||trafficjunky.net^
 ||juicyads.com^
@@ -9,11 +9,12 @@
 ||popads.net^
 ||popcash.net^
 
-# TRACKING (mais específico)
-||track.*.xxx^
-||ads.*.xxx^
-||click.*.xxx^
+# TRACKING (DOMÍNIOS REAIS)
+||ads.exoclick.com^
+||ads.trafficjunky.net^
+||ads.juicyads.com^
 
-# POPUPS (mais controlado)
-||popunder.js
-||popup.js
+# SCRIPTS ESPECÍFICOS
+||*/popunder.js
+||*/popup.js
+||*/ads.js
