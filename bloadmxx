@@ -1,20 +1,28 @@
-# REDES DE ANÚNCIOS ADULTOS (SEGURO)
-||exoclick.com^
+# BLOQUEAR REDE PRINCIPAL DE ANÚNCIOS
 ||trafficjunky.net^
-||juicyads.com^
-||plugrush.com^
-||trafficstars.com^
-||adxpansion.com^
-||ero-advertising.com^
-||popads.net^
-||popcash.net^
-
-# TRACKING (DOMÍNIOS REAIS)
-||ads.exoclick.com^
 ||ads.trafficjunky.net^
-||ads.juicyads.com^
 
-# SCRIPTS ESPECÍFICOS
-||*/popunder.js
-||*/popup.js
-||*/ads.js
+# OUTRAS REDES USADAS
+||exoclick.com^
+||juicyads.com^
+||ero-advertising.com^
+
+# SCRIPTS DE ANÚNCIOS
+||pornhub.com^*/ads/*
+||pornhub.com^*/banner/*
+||pornhub.com^*/promo/*
+||pornhub.com^*/popout/*
+
+# POPUPS / REDIRECIONAMENTO
+||pornhub.com^*/click/*
+||pornhub.com^*/redirect/*
+
+# ELEMENTOS VISUAIS (se suportar AdGuard CSS)
+pornhub.com##.adsbytrafficjunky
+pornhub.com##.sponsor
+pornhub.com##.topAdContainter
+pornhub.com##.ads
+
+# VÍDEOS PROMOVIDOS
+pornhub.com##.premiumUpsell
+pornhub.com##.paidVideoBlock
