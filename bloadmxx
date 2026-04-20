@@ -1,28 +1,146 @@
-# BLOQUEAR REDE PRINCIPAL DE ANÚNCIOS
+! ===== MODO EXTREMO - ADS ADULTOS =====
+
+! Redes principais
 ||trafficjunky.net^
 ||ads.trafficjunky.net^
-
-# OUTRAS REDES USADAS
+||trafficjunky.com^
 ||exoclick.com^
+||ads.exoclick.com^
+||syndication.exoclick.com^
 ||juicyads.com^
+||ads.juicyads.com^
 ||ero-advertising.com^
+||plugrush.com^
+||trafficstars.com^
+||adxpansion.com^
+||popads.net^
+||popcash.net^
 
-# SCRIPTS DE ANÚNCIOS
+! Scripts e endpoints comuns de anúncio
+||*/ads.js
+||*/adserver*
+||*/banner*
+||*/promo*
+||*/promoted*
+||*/sponsor*
+||*/sponsored*
+||*/popunder*
+||*/popup*
+||*/redirect*
+||*/click?*
+||*/out?*
+||*/trk/*
+||*/track/*
+||*/analytics/*
+
+! Pornhub
 ||pornhub.com^*/ads/*
-||pornhub.com^*/banner/*
 ||pornhub.com^*/promo/*
-||pornhub.com^*/popout/*
-
-# POPUPS / REDIRECIONAMENTO
-||pornhub.com^*/click/*
+||pornhub.com^*/banner/*
 ||pornhub.com^*/redirect/*
-
-# ELEMENTOS VISUAIS (se suportar AdGuard CSS)
+||pornhub.com^*/click/*
+pornhub.com##.ads
+pornhub.com##.adContainer
 pornhub.com##.adsbytrafficjunky
 pornhub.com##.sponsor
 pornhub.com##.topAdContainter
-pornhub.com##.ads
-
-# VÍDEOS PROMOVIDOS
 pornhub.com##.premiumUpsell
 pornhub.com##.paidVideoBlock
+pornhub.com##.sponsoredVideo
+
+! XVideos
+||xvideos.com^*/ads/*
+||xvideos.com^*/promo/*
+||xvideos.com^*/redirect/*
+||xvideos.com^*/click/*
+xvideos.com##.ads
+xvideos.com##.exoAd
+xvideos.com##.sponsor
+xvideos.com##.video-ad
+xvideos.com##.premium
+xvideos.com##.paidVideoBlock
+
+! XNXX
+||xnxx.com^*/ads/*
+||xnxx.com^*/promo/*
+||xnxx.com^*/redirect/*
+||xnxx.com^*/click/*
+xnxx.com##.ads
+xnxx.com##.exoAd
+xnxx.com##.sponsor
+xnxx.com##.adblock
+xnxx.com##.paidVideoBlock
+
+! RedTube
+||redtube.com^*/ads/*
+||redtube.com^*/promo/*
+||redtube.com^*/redirect/*
+redtube.com##.ads
+redtube.com##.sponsor
+redtube.com##.premiumUpsell
+
+! YouPorn
+||youporn.com^*/ads/*
+||youporn.com^*/promo/*
+||youporn.com^*/redirect/*
+youporn.com##.ads
+youporn.com##.sponsor
+youporn.com##.paidVideoBlock
+
+! Tube8
+||tube8.com^*/ads/*
+||tube8.com^*/promo/*
+||tube8.com^*/redirect/*
+tube8.com##.ads
+tube8.com##.sponsor
+
+! xHamster
+||xhamster.com^*/ads/*
+||xhamster.com^*/promo/*
+||xhamster.com^*/redirect/*
+xhamster.com##.ads
+xhamster.com##.sponsor
+xhamster.com##.premiumUpsell
+
+! Cam / live
+||chaturbate.com^*/ads/*
+||stripchat.com^*/ads/*
+||cam4.com^*/ads/*
+||bongacams.com^*/ads/*
+chaturbate.com##.ads
+stripchat.com##.ads
+cam4.com##.ads
+bongacams.com##.ads
+
+! Regras cosméticas genéricas
+##.ads
+##.ad
+##.ad-container
+##.adContainer
+##.ad-wrapper
+##.adsbox
+##.adsbytrafficjunky
+##.exoAd
+##.sponsor
+##.sponsored
+##.sponsoredVideo
+##.paidVideoBlock
+##.premiumUpsell
+##.promoBanner
+##.top-banner
+##.bottom-banner
+##.sidebar-ad
+##.video-ad
+
+! Para evitar bloqueio total do site
+@@||pornhub.com^$document
+@@||xvideos.com^$document
+@@||xnxx.com^$document
+@@||redtube.com^$document
+@@||youporn.com^$document
+@@||tube8.com^$document
+@@||xhamster.com^$document
+@@||chaturbate.com^$document
+@@||stripchat.com^$document
+@@||cam4.com^$document
+@@||bongacams.com^$document
